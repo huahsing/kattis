@@ -95,6 +95,8 @@ int main()
   unordered_map<string, Item> itemList;
   string list1, list2;
   
+  itemList.max_load_factor(0.5);
+  
   cin >> N;
   
   for(int i = 0; i < N; ++i)
